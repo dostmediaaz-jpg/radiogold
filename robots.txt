@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://radiogold-moscow.ru/sitemap.xml
+Host: https://radiogold-moscow.ru

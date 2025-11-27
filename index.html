@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#f59e0b" />
+    
+    <!-- SEO Основное -->
+    <title>Скупка Радиодеталей | Москва и МО | Калькулятор цен</title>
+    <meta name="description" content="Скупка радиодеталей в Москве и области. Дорого. Моментальная оценка онлайн, выезд курьера, оплата сразу. Принимаем КМ, транзисторы, реле, разъемы." />
+    <meta name="keywords" content="скупка радиодеталей, скупка км, цена на радиодетали, продать транзисторы, скупка микросхем, драгметаллы в радиодеталях, Москва, Митино" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook / Telegram / WhatsApp (Для красивых ссылок) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RadioGold Moscow" />
+    <meta property="og:url" content="https://radiogold-moscow.ru/" />
+    <meta property="og:title" content="Скупка Радиодеталей — Оценка за 5 минут" />
+    <meta property="og:description" content="Узнайте стоимость ваших деталей в онлайн-калькуляторе. Высокие цены, выезд курьера, деньги сразу." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=1200" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: '#fffbeb',
+                100: '#fef3c7',
+                200: '#fde68a',
+                300: '#fcd34d',
+                400: '#fbbf24',
+                500: '#f59e0b', // Gold/Amber
+                600: '#d97706',
+                700: '#b45309',
+                800: '#92400e',
+                900: '#78350f',
+              },
+              dark: {
+                900: '#111827',
+                800: '#1f2937',
+                700: '#374151',
+              }
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'fade-in-up': 'fadeInUp 0.5s ease-out',
+              'fade-in-down': 'fadeInDown 0.3s ease-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeInDown: {
+                '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
